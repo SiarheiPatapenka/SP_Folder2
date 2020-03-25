@@ -11,12 +11,17 @@
  */
 
 function calculateDiscount(redemption) {
-  let discount;
+  let discount=0;
 
   //PLACE YOUR CODE HERE
-
+  if (redemption >= 0 && redemption <= 350) return 0
+  if (redemption >=351   && redemption <= 1350) return 15
+  if (redemption >=1351  && redemption <= 2700) return 30
+  if (redemption >=2701  && redemption <= 6500) return 45
+ 
   return discount;
 }
+console.log(calculateDiscount(6500));
 
 /** TODO
  * implement factorial algorithm using for, while, do..while operators
