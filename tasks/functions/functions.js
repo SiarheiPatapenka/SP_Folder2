@@ -5,7 +5,7 @@
 function add(a, b) {
 
 }
-
+// Just a test
 /**
  * write function that return first and last name of given object
  * properties firstName and lastName
