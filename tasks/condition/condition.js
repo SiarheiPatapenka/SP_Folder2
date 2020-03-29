@@ -6,8 +6,7 @@
 {
   const a = 3,
         b = 2;
-
-  console.log(a+b<4 ? "wrong" : "too much")
+  (a + b < 4) ? console.log('wrong') : console.log('too much');
   // SHOULD BE DELETED if (a + b < 4) {
   // SHOULD BE DELETED  console.log('wrong');
   // SHOULD BE DELETED} else {

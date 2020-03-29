@@ -66,7 +66,8 @@ console.log(calculateDiscount(6500));
   let sum='';
   const substr = ["I", " love", " JS"];
   for (let element of substr) {
-    sum=substr.join('');
+    //sum=substr.join('');
+    sum +=element;
 }
 console.log (sum);
 }
@@ -82,7 +83,7 @@ console.log (sum);
     otherExpences: -300
   };
   for  (let property in personIncomes ) {
-    (total+=personIncomes[property]);
+    (total += personIncomes[property]);
 }
 console.log ('Income is', total);
 }
