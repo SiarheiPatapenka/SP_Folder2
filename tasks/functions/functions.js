@@ -50,9 +50,10 @@ console.log(getShortest(["one", "two", "three", "x"]));
  * write function that returns word google with given numbers of "o" symbols
  * e.g getGoogle(5) should return "gooooogle"
  */
-let letter = 'o'
+
  function getGoogle(n) {
-   return 'g' + letter.repeat(n) + 'gle';    
+    let letter = 'o'
+    return 'g' + letter.repeat(n) + 'gle';    
 
 }
 console.log(getGoogle(3));
