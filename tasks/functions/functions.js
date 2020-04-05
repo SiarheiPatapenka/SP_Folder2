@@ -27,7 +27,11 @@ console.log(getFullName({firstName: "John", lastName: "Dou"}));
  * true if odd, false if even
  */
 function isOdd(n) {
+<<<<<<< HEAD
     return n % 2>0 ? true : false;
+=======
+    
+>>>>>>> dfb4b2434a8077e0cb6e1717f10f734ed48aa2cc
 }
 console.log(isOdd(2));
 
@@ -67,10 +71,15 @@ console.log(getGoogle(3));
  *    age: 42
  * }
  */
+<<<<<<< HEAD
 
  function getUser(firstName=null, lastName=null, age=null) {
     return {firstName: firstName, lastName: lastName, age: age};
 
+=======
+function getUser(firstName, lastName, age) {
+    
+>>>>>>> dfb4b2434a8077e0cb6e1717f10f734ed48aa2cc
 }
 console.log(getUser('John', 'Dou', 42));
 
@@ -81,15 +90,20 @@ console.log(getUser('John', 'Dou', 42));
  */
 // TOODDDDDDDDDDDDDOOOOO 2
 function getTotalPath(path) {
+<<<<<<< HEAD
     let sum=0;
     for (let element of path) {
         //sum=substr.join('');
         sum +=element.distance;
     }
     return sum;
+=======
+    
+>>>>>>> dfb4b2434a8077e0cb6e1717f10f734ed48aa2cc
 }
     console.log( getTotalPath([ { direction: "Kiyv - Minsk", distance: 567 }, { direction: "Kiyv - Paris", distance: 2402 }, { direction: "Paris - London", distance: 466 } ]))
 
+<<<<<<< HEAD
 /**
  * write function that returns function that calculates given discount
  * e.g
@@ -100,6 +114,8 @@ function getTotalPath(path) {
     //function discountFunction(discount) {
 
 //}
+=======
+>>>>>>> dfb4b2434a8077e0cb6e1717f10f734ed48aa2cc
 
 module.exports = {
     add,
@@ -109,5 +125,9 @@ module.exports = {
     getGoogle,
     getUser,
     getTotalPath,
+<<<<<<< HEAD
     
 };
+=======
+};
+>>>>>>> dfb4b2434a8077e0cb6e1717f10f734ed48aa2cc
