@@ -3,7 +3,7 @@ const { expect } = require('chai');
 const sinon = require('sinon');
 const chars = require('../characters.json');
 const {
-    reverseString,
+    //reverseString,
     getCharactersNames,
     printCharacterNames,
     getNonHumanCharacters,
