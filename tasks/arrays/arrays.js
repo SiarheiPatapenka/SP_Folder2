@@ -51,7 +51,7 @@ function getJerryInfo(chars) {
  * @return {boolean}
  */
 function isAllHuman(chars) {
-    return chars.includes('Human');  
+    return chars.every(char => char.species === 'Human');  
 }
 
 /**
@@ -60,14 +60,8 @@ function isAllHuman(chars) {
  * @return {boolean}
  */
 function isAnyFishPerson(chars) {
-    let masFish = [];
-    for ( let element of chars)  {
-     masFish.push(element.type = "Fish-Person");   
-      }     
-    
-      return  masFish.includes('Fish-Person');  
-    }
-
+    return  chars.some(char => char.type === "Fish-Person");  
+}
 
 /**
  * 1. Write a method to find an index of minimal item from an array;
