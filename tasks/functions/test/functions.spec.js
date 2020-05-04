@@ -68,22 +68,6 @@ describe('getTotalPath', () => {
     });
 });
 
-<<<<<<< HEAD
-//describe('discountFunction', () => {
-//   it('should return discount10', () => {
-//        const discount10 = discountFunction(10);
-//        expect(discount10(90)).to.equal(81);
-//    });
-//    it('should return discount15', () => {
-//        const discount15 = discountFunction(15);
-//        expect(discount15(110)).to.equal(93.5);
-//    });
-//    it('should return discount20', () => {
-//        const discount20 = discountFunction(20);
-//        expect(discount20(1000)).to.equal(800);
-//    });
-//});
-=======
 // describe('discountFunction', () => {
 //     it('should return discount10', () => {
 //         const discount10 = discountFunction(10);
@@ -98,4 +82,3 @@ describe('getTotalPath', () => {
 //         expect(discount20(1000)).to.equal(800);
 //     });
 // });
->>>>>>> dfb4b2434a8077e0cb6e1717f10f734ed48aa2cc
